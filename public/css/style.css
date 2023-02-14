@@ -1,3 +1,52 @@
 * {
     font-family: "Raleway";
+    text-decoration: none;
+    margin:0%;
 }
+
+.menu{
+    display:flex;
+    background-color: rgba(243, 243, 243, 0.689);
+ 
+}
+
+#home{
+    margin-left: 25%;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+#signin{
+    padding: 10px;
+    padding-top: 40px;
+
+}
+
+#signup{
+    padding: 10px;
+    padding-top: 40px;
+
+}
+
+#party{
+    padding: 10px;
+    padding-top: 40px;
+
+}
+
+#img{
+    padding: 10px;
+   
+
+}
+
+#pe{
+    margin-left: 80%;
+    padding-top: 40%;
+    padding-bottom: 20px;
+}
+
+#content{
+    padding: 20px;
+}
+
