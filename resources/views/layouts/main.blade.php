@@ -17,24 +17,27 @@
    
     <div class="menu">
                     <a href="/"><img id = "img" src="/img/butterfly.png" widght=100px height=80px></a>
-                    <a href="/" class"nav-link" id="home">Home</a>
-            
-                    <a href="/parties/create" class"nav-link" id="party">Create a Party</a>
+                    <div class='menus'>
+                        <a href="/" id="home"><strong>Home</strong></a>
                 
-                    <a href="/signin" class"nav-link" id="signin">Sign In</a>
-                
-                    <a href="/signup" class"nav-link" id="signup">Sign Up</a>
+                        <a href="/parties/create" id="party"><strong>Create a Party</strong></a>
+                    
+                        <a href="/signin" id="signin"><strong>Sign In</strong></a>
+                    
+                        <a href="/signup"  id="signup"><strong>Sign Up</strong></a>
+                    </div>
                     
     </div>  
 </br>
     <div id="content">
         @yield('content')
     </div>
-    <div id='pe'>
     <footer>
+    <div id='pe'>
     <a
     </br><strong>Raimee Studios &copy; 2023</strong>
-    </footer>
     </div>
+    </footer>
+    
 </body>
 </html>
