@@ -14,23 +14,27 @@
     margin-left: 25%;
     padding: 10px;
     padding-top: 40px;
+    color:darkgray;
 }
 
 #signin{
     padding: 10px;
     padding-top: 40px;
+    color:darkgray;
 
 }
 
 #signup{
     padding: 10px;
     padding-top: 40px;
+    color:darkgray;
 
 }
 
 #party{
     padding: 10px;
     padding-top: 40px;
+    color:darkgray;
 
 }
 
@@ -47,6 +51,86 @@
 }
 
 #content{
-    padding: 20px;
+    padding: 10px;
 }
+
+#title{
+/* padding-left: 45%; */
+    align-content: center;
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+#conteudo{
+    align-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+#cabeca{
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+#cards{
+    border-radius: 5px;
+     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+     padding: 30px;
+     margin: 20px;
+     height: 350px;
+     width: 250px;
+     transition: all 0.3s ease-out;
+ }
+
+ .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding-top: 10px;
+ }
+
+ .button{
+    border-radius: 5px;
+    border-color: #a0a0a0;
+    height: 40px;
+    background-color: rgb(247, 238, 244);
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  
+  }
+
+  #buttons{
+    align-items: center;
+    padding-top: 80%;
+  }
+
+  #search_button{
+    border-radius: 5px;
+    border-color: #a0a0a0;
+    height: 40px;
+    background-color: rgb(247, 238, 244);
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 10px;
+    margin-left:45%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  #search{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: center;
+    display:flex;
+    height: 25px;
+  }
+
+
+
 

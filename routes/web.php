@@ -12,20 +12,12 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\http\controllers\PartyController;
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/',[PartyController::class, 'index']); 
+Route::get('/parties/create',[PartyController::class, 'create']); 
+Route::get('/signin', [PartyController::class, 'signin']);
+Route::get('/signup', [PartyController::class, 'signup']);
 
 
-Route::get('/new', function (){
-    return view('new');
-});
 
-Route::get('/signin', function(){
-    return view('signin');
-});
-
-Route::get('/signup', function(){
-    return view('signup');
-});
