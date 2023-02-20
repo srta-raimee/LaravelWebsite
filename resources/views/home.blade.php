@@ -18,9 +18,7 @@
         <p id='text-title'><strong>Search for a Party!</strong></p>
         <input type='text' id='search' name='search' placeholder="Search parties around you...">
         </div>
-        <!-- <div class='center'> -->
             <a href=""><button id="search_button"><strong>Search now</strong></button></a>
-        <!-- </div> -->
     </form>
 
 
@@ -35,11 +33,17 @@
             </div> 
     </br></br>
             <div id= 'conteudo'>
-        {{ $party->description }}</br> {{ $party->city }}
-        <div id='buttons'>
-            <a href=""><button class="button"><strong>let's go!</strong></button></a>
-        </div>    
+        {{ $party->description }}</br> 
+    
             </div>
+            <div id='city-center'>
+               <strong><p>Where? </p>{{ $party->city }}</strong>
+            </div>
+
+            <div id='buttons'>
+            <a href=""><button class="button"><strong>let's go!</strong></button></a>
+        </div> 
+  
        </div>
 
 

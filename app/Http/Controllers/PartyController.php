@@ -25,6 +25,22 @@ class PartyController extends Controller
     public function signup(){
         return view('signup');
     }
+
+    public function store(Request $request){
+
+        $party = new Party;
+
+        $party->Title = $request->Title;
+        $party->city = $request->city;
+        $party->description = $request->description;
+        $party->private = $request->private;
+    
+        $party->save();
+
+        return redirect('/');
+
+
+    }
 }
 
 
