@@ -37,9 +37,15 @@ class PartyController extends Controller
     
         $party->save();
 
-        return redirect('/');
+        return redirect('/')->with('msg', 'Party has been successfully created!');
 
 
+    }
+
+    public function show($id){
+        $party = Party::findOrFail($id);
+
+        return view('parties.show', ['party'=> $party]);
     }
 }
 

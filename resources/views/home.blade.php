@@ -24,7 +24,10 @@
 
 </div>
 
+
 <div class="card">
+
+
 @foreach($parties as $party)
     
        <div id='cards'> 
@@ -41,14 +44,13 @@
             </div>
 
             <div id='buttons'>
-            <a href=""><button class="button"><strong>let's go!</strong></button></a>
+            <a href="/parties/{{ $party->id }}"><button class="button"><strong>let's go!</strong></button></a>
         </div> 
   
        </div>
-
-
-
+        
 @endforeach
+
 </div>
 
 @endsection

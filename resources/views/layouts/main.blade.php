@@ -30,6 +30,9 @@
     </div>  
 </br>
     <div id="content">
+        @if(session('msg'))
+            <p class='msg'>{{ session('msg') }}</p>
+        @endif
         @yield('content')
     </div>
     <footer>
