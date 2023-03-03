@@ -116,7 +116,7 @@
     padding: 10px;
 }
 
-#title{
+.title{
 /* padding-left: 45%; */
     align-content: center;
     text-align: center;
@@ -125,10 +125,10 @@
    
 }
 
-#conteudo{
+.conteudo{
     align-content: center;
     text-align: center;
-    height: 150px;
+    height: 50px;
 
 }
 
@@ -154,7 +154,7 @@
 
  
 
-  #buttons{
+  .buttons{
     
     text-align: center;
     justify-content: center;
@@ -200,6 +200,25 @@
     margin-top: 50px;
   }
 
+#img-card{
+    text-align: center;
+}
+
+
+
+.content-org{
+    display: flex;
+    margin-top: 35px;
+}
+
+.party-org{
+    text-align: left;
+}
+
+.img-org{
+    margin-right: 25px;
+}
+
 #text-title{
     text-align: center;
     font-size: 32px;
@@ -207,3 +226,36 @@
 }
 
 
+.join_button{
+    border-radius: 5px;
+    border-color: #a0a0a0;
+    height: 40px;
+    background-color: rgb(247, 238, 244);
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 10px;
+    margin-left:45%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  #button-org{
+    border-radius: 5px;
+    border-color: #a0a0a0;
+    /* height: 40px; */
+    background-color: rgb(247, 238, 244);
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 10px;
+    margin-left:45%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+
+  .party_content{
+    align-content: center;
+    text-align: center;
+    padding: 15px;
+  }

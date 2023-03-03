@@ -20,5 +20,5 @@ Route::get('/signin', [PartyController::class, 'signin']);
 Route::get('/signup', [PartyController::class, 'signup']);
 
 Route::post('/parties', [PartyController::class, 'store']);
-Route::get('/parties/{$id}', [PartyController::class, 'show']);
+Route::get('/parties/{id}', [PartyController::class, 'show']);
 

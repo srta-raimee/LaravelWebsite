@@ -34,7 +34,18 @@ class PartyController extends Controller
         $party->city = $request->city;
         $party->description = $request->description;
         $party->private = $request->private;
-    
+    //image upload 
+
+    if($request->hasFile('image') && $request->file('image')->isValid()){
+
+        $requestImage = $request->image;
+        $extension = $requestImage->extension();
+        $imageName = md5($requestImage->getClientOriginalName() . strtotime("now")) . "." . $extension;
+        $request->image->move(public_path('./img/parties'), $imageName);
+        $party->image= $imageName;
+
+    }    
+
         $party->save();
 
         return redirect('/')->with('msg', 'Party has been successfully created!');

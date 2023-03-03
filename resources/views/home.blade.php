@@ -31,11 +31,14 @@
 @foreach($parties as $party)
     
        <div id='cards'> 
-            <div id='title'>
+            <div class='title'>
                 <strong>-- {{ $party->Title }} --</strong>
-            </div> 
-    </br></br>
-            <div id= 'conteudo'>
+            </div>
+           <div id='img-card'>
+            <img  src="/img/parties/{{ $party->image  }}" width="150px" height="150px">
+           </div> 
+            
+            <div class= 'conteudo'>
         {{ $party->description }}</br> 
     
             </div>
@@ -43,7 +46,7 @@
                <strong><p>Where? </p>{{ $party->city }}</strong>
             </div>
 
-            <div id='buttons'>
+            <div class='buttons'>
             <a href="/parties/{{ $party->id }}"><button class="button"><strong>let's go!</strong></button></a>
         </div> 
   

@@ -9,8 +9,13 @@
     </strong>
     </div>
 
-    <form action="/parties" method='POST' class='form'>
+    <form action="/parties" method='POST' class='form' enctype="multipart/form-data">
      @csrf   <!-- é o que permite enviar dados ao banco. precisamos dele! -->
+     <div class='label-title'>
+           <label for="image">Party Image:</label>
+     </div>
+     <input type="file" id='image' name='image' class='input-image'>
+     
      <div class='label-title'>
            <label for="title">Name:</label>
      </div>
