@@ -10,6 +10,15 @@
     background-color: rgba(214, 214, 214, 0.689);
 }
 
+.org-icon{
+    display:flex;
+    height: 20px;
+    width: 20px;
+    
+   
+}
+
+
 .menus{
    padding-top: 30px;
    position: absolute;
@@ -122,6 +131,7 @@
     text-align: center;
     font-size: 25px;
     height: 30px;
+    margin-bottom: 5px;
    
 }
 
@@ -208,10 +218,11 @@
 
 .content-org{
     display: flex;
-    margin-top: 35px;
+    margin-top: 15px;
+    
 }
 
-.party-org{
+#party-org{
     text-align: left;
 }
 
@@ -239,7 +250,7 @@
     margin-bottom: 15px;
   }
 
-  #button-org{
+  .button-org{
     border-radius: 5px;
     border-color: #a0a0a0;
     /* height: 40px; */
@@ -247,11 +258,21 @@
     /* margin-left: auto;
     margin-right: auto; */
     padding: 10px;
-    margin-left:45%;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 15px;
     text-align: center;
+    height: 25px;
+    width: 150px;
   }
+
+.title-org{
+    align-content: center;
+    text-align: center;
+    font-size: 42px;
+    height: 30px;
+    margin-bottom: 45px;
+}
 
 
   .party_content{

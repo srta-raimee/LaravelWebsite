@@ -6,7 +6,7 @@
 
 <strong>
     <div id='cabeca'>
-        Home - Which parties are happening now?</strong>
+    <strong> ..⋅˙ॱᐧ.˳˳.⋅🦋˚ Which parties are happening now? ⋅🦋ॱ⋅.˳˳.⋅˙ॱᐧ.˳˚</strong>
     </div>
 </br></br>
 
@@ -32,7 +32,7 @@
     
        <div id='cards'> 
             <div class='title'>
-                <strong>-- {{ $party->Title }} --</strong>
+                <strong>✧.* {{ $party->Title }} ✧.*</strong>
             </div>
            <div id='img-card'>
             <img  src="/img/parties/{{ $party->image  }}" width="150px" height="150px">
