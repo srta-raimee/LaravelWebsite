@@ -22,9 +22,9 @@
                 
                         <a href="/parties/create" id="party"><strong>Create a Party</strong></a>
                     
-                        <a href="/signin" id="signin"><strong>Sign In</strong></a>
+                        <a href="/login" id="signin"><strong>Sign In</strong></a>
                     
-                        <a href="/signup"  id="signup"><strong>Sign Up</strong></a>
+                        <a href="/register"  id="signup"><strong>Sign Up</strong></a>
                     </div>
                     
     </div>  

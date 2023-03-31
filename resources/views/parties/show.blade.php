@@ -28,8 +28,21 @@
             <p><strong>Owner:</strong> </p>       
 </div>
 </br>
-<p><strong> X</strong> PEOPLE JOINED</p>
+<div>
+<div class="org-icon">
+    <img src="https://static.vecteezy.com/system/resources/previews/005/988/959/non_2x/calendar-icon-free-vector.jpg">
+    <p>{{ date('d/m/y', strtotime($party->date))}}</p>
+</div>
+
+</br></br><p><strong> X</strong> PEOPLE JOINED</p>
 </br>
+
+<p><b>Items: </b></p>
+@foreach($party->items as $item)
+    <div><li> {{$item}}</li></div>
+@endforeach
+</div>
+
 <div class="button-org">
         <a href=''>Join this party!</a>
 </div>
